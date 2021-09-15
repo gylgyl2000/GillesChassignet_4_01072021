@@ -740,6 +740,10 @@ h4 {
     color: #FFFFFF!important;
 }
 
+.black {
+    color: #000000 !important;
+}
+
 .portfolio-thumb {
     margin-bottom: 24px;
     width: 100%;
@@ -981,7 +985,7 @@ iframe#maps {
     }
     .navbar-brand img {
         max-height: 40px;
-        width: auto;
+        width: 100%;
     }
     .nav-invert .navbar-header {
         float: none;
@@ -1017,6 +1021,7 @@ iframe#maps {
     .bloc-6 {
         width: 80%;
     }
+  
     #bloc-7 {
         padding: 0 1em;
     }
