@@ -698,6 +698,9 @@ p {
 }
 
 .social {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     max-width: 400px;
     margin: auto auto auto auto;
 }
@@ -832,6 +835,12 @@ h4 {
     background-image: url("img/image-de-presentation.webp");
     width: inherit;
     height: inherit;
+}
+
+#maps {
+    width: 100%;
+    height: 40vh;
+    border: 0;
 }
 
 @media (max-width: 1024px) {
@@ -1004,6 +1013,14 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+
+    .bloc-6 {
+        width: 80%;
+    }
+    #bloc-7 {
+        padding: 0 1em;
+    }
+    
     .a-block {
         padding: 0 10px;
     }
