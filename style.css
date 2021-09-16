@@ -1004,6 +1004,9 @@ iframe#maps {
     .bloc-lg {
         padding: 40px 0;
     }
+    #bloc-3-what-i-do .bloc-lg {
+        padding: 0;
+    }
     .bloc-sm,
     .bloc-md {
         padding-left: 0;
