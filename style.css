@@ -678,6 +678,12 @@ p {
     font-size: 1em;
 }
 
+@media (min-width: 1024px) {
+    p {
+        font-size: 1.2em;
+    }
+}
+
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
